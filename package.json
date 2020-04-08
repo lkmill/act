@@ -1,0 +1,30 @@
+{
+  "name": "act",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest {preact,react}/ComponentFactory.test.jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lohfu/act.git"
+  },
+  "author": "Linus Miller <lohfu@lohfu.io> (https://lohfu.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lohfu/act/issues"
+  },
+  "homepage": "https://github.com/lohfu/act#readme",
+  "dependencies": {
+    "preact": "^10.4.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.3.0",
+    "jest": "^25.3.0"
+  }
+}
